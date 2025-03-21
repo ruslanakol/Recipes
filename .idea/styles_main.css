@@ -1,0 +1,297 @@
+header {
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    background-color: white;
+    top: 0;
+    left: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.search {
+    padding-right: 10px;
+    padding-top: 10px;
+    vertical-align: text-top;
+    margin-top: -9px;
+}
+.search-button {
+    margin-left: 10px;
+    background-color: white;
+    padding: 5px 12px;
+    margin-top: 10px;
+}
+.icon {
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+nav {
+    padding-top: 60px;
+    height: 60vh;
+}
+
+.nav-list a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    text-decoration: underline;
+    color:  #1B4D3E;
+    font-size: 18px;
+}
+
+
+.main-photo {
+    background-image: url(images/pie.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    height: 440px;
+    border-radius: 20px;
+
+}
+.text-photo {
+    color: white;
+    padding-top: 280px;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+
+}
+.text-photo p {
+    background-color: #1B4D3E;
+    width: 150px;
+}
+.text-photo h2 {
+    background-color: #F1E3D3;
+    color: #1B4D3E;
+
+}
+.apple {
+    width: 250px;
+    font-size: 30px;
+
+}
+.loaded-tart {
+    width: 230px;
+
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav-list {
+    list-style: none;
+    font-size: 15px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.popular-categories {
+    padding-top: 190px;
+    height: 40vh;
+
+}
+.popular-categories-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.popular-categor {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popular-categories img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 95px;
+    width: 85px;
+    display: flex-inline;
+}
+figcaption a{
+    padding-left: 15px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+figcaption a:hover {
+    color: #1B4D3E;
+    text-decoration: underline;
+}
+
+.glazed-donuts {
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+    padding-left: 5px;
+}
+.main-photo-recipe {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.name-recipe {
+    display: flex;
+    font-weight: bold;
+}
+.author {
+    display: inline-flex;
+    padding-top: 25px;
+}
+.man-name {
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    vertical-align: baseline;
+}
+.man-face {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+}
+.view-recipe{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.super-delicious-recipes {
+    display: flex;
+}
+.pan-cod {
+    padding-left: 20px;
+    margin-left: 40px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.berry-biscuits {
+    padding-left: 20px;
+    margin-left: 40px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+
+.ramen {
+    padding-left: 20px;
+    margin-left: 40px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+
+}
+.shrimp-pasta {
+    padding-left: 20px;
+    margin-left: 40px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.chocolate-bites {
+    padding-left: 10px;
+    margin-left: -3px;
+    margin-top: 30px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.caesar {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.wrap {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.cake {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.boul{
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: lightgraygray solid 3px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+}
+.more-recipes {
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.super-delicious {
+    padding-bottom: 100px;
+}
+
+.recipe-search {
+    border: lightgray solid 3px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+    padding: 60px;
+    background-color: #41644A;
+    color: #F1F0E9;
+}
+.other-categories-text{
+    display: block;
+    float: right;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+.search-icon {
+    margin-right: 5px;
+    background-color: #F1F0E9;
+    border: 9px solid #F1F0E9;
+    border-radius: 10px;
+    margin-right: -30px;
+}
+.meal-planning {
+    border: lightgray solid 3px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 8px 5px lightgray;
+    padding: 60px;
+    background-color: #41644A;
+    color: #F1F0E9;
+}
+
+
+
+
+
